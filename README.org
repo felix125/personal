@@ -1,0 +1,7 @@
+
+* My emacs setting with prelude.
+
+  [[https://github.com/bbatsov/prelude][Prelude]] is an awesome enhanced Emacs 24 distribution. These settings are based on it.
+  If you like to use it, install prelude first.
+  
+
