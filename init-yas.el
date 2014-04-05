@@ -5,7 +5,6 @@
 
 (require 'yasnippet)
 
-(add-to-list 'yas-snippet-dirs "~/.emacs.d/personal/yas/yasnippet/")
 (add-to-list 'yas-snippet-dirs "~/.emacs.d/personal/yas/snippets")
 
 (yas-global-mode 1)
