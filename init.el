@@ -25,6 +25,12 @@
 (setq mouse-yank-at-point t)
 (setq x-select-enable-clipboard t)
 
+;; recentf with tramp
+(require 'recentf)
+(setq recentf-auto-cleanup 'never) ;; disable before we start recentf!
+(recentf-mode 1)
+
+
 ;; dired omit files
 (require 'dired-x)
 (setq-default dired-omit-files-p t) ; this is buffer-local variable
