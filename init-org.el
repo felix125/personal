@@ -92,8 +92,8 @@
    (sql . t)
    ))
 
-;; Use fundamental mode when editing plantuml blocks with C-c '
-(add-to-list 'org-src-lang-modes (quote ("plantuml" . fundamental)))
+;; ;; Use fundamental mode when editing plantuml blocks with C-c '
+;; (add-to-list 'org-src-lang-modes (quote ("plantuml" . fundamental)))
 
 (provide 'init-org)
 ;;; init-org.el ends here
